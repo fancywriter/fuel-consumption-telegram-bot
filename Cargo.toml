@@ -1,0 +1,9 @@
+[package]
+name = "fuel-consumption-telegram-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tgbot = "0.18.0"
+tokio = {version = "1.22.0", features = ["rt-multi-thread", "macros"]}
+futures-util = "0.3.25"
